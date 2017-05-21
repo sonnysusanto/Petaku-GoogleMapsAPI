@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "894602933181",
+    "firebase_url": "https://petaku-f5c30.firebaseio.com",
+    "project_id": "petaku-f5c30",
+    "storage_bucket": "petaku-f5c30.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:894602933181:android:8831b1d77ff6d0c7",
+        "android_client_info": {
+          "package_name": "com.sonnysusanto.android.latihangmaps"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "894602933181-1k28ft2pn8tdsvg1q9687hcu6lfsq9um.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sonnysusanto.android.latihangmaps",
+            "certificate_hash": "f6a792d7e9fb08b4678027efc3cce69ebc3c7107"
+          }
+        },
+        {
+          "client_id": "894602933181-i5d4md5h1krtuttk4cpdig50hclb4djh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBjihONPV-E-R6LaGRIj_ucPDoWimqWwuo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "894602933181-i5d4md5h1krtuttk4cpdig50hclb4djh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

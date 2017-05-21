@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.sonnysusanto.android.latihangmaps.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="Materi #BelajarBareng"
+        android:textColor="#000000"
+        android:textSize="24dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="Google Maps API"
+        android:textColor="#000000"
+        android:textSize="24dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="Senin, 01 Mei 2017"
+        android:textColor="#000000"
+        android:textSize="24dp" />
+
+    <Button
+        android:id="@+id/mapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="buttonMapFragment"
+        android:text="Map Fragment" />
+
+    <Button
+        android:id="@+id/mapType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="buttonMapType"
+        android:text="Map Type" />
+
+    <Button
+        android:id="@+id/mapMove"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="buttonMapMove"
+        android:text="Map Move" />
+
+    <Button
+        android:id="@+id/mapMarker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="buttonMapMarker"
+        android:text="MarkerOptions" />
+
+    <Button
+        android:id="@+id/mapPolylines"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="buttonMapPolylines"
+        android:text="Polylines" />
+
+    <Button
+        android:id="@+id/mapCircles"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="buttonMapCircles"
+        android:text="Circles" />
+
+    <Button
+        android:id="@+id/mapStreetView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="buttonMapStreetView"
+        android:text="Street View" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="sonny.susanto@gmail.com"
+        android:textColor="#000000" />
+
+</LinearLayout>
